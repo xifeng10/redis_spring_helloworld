@@ -10,7 +10,7 @@ import redis.clients.jedis.Jedis;
 
 /**
  * 封装redis 缓存服务器服务接口
- * @author hk
+ * @author 
  *
  * 2012-12-16 上午3:09:18
  */
