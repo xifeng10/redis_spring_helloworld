@@ -11,7 +11,7 @@
 	<!--注解说明 -->
 	<context:annotation-config />
 	<!-- 把标记了@Controller注解的类转换为bean -->
-	<context:component-scan base-package="com.mkfree.**" />
+	<context:component-scan base-package="com.redis.**" />
 	<!-- redis工厂 -->
 	<bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
 		p:host-name="127.0.0.1" p:port="6379"  />
